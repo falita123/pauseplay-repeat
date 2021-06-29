@@ -1,0 +1,7 @@
+@use '/bootstrap-v5/scss/custom' as *;
+
+// GRADIENT MIXIN
+
+@mixin gradient {
+    background: linear-gradient(to right, rgba($ppr-red, 0.95), rgba($ppr-blue, 0.95));
+}

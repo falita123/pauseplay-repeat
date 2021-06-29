@@ -1,0 +1,18 @@
+@use '/bootstrap-v5/scss/custom' as *;
+@use '/bootstrap-v5/scss/components/mixins' as *;
+
+.menu{
+    @include gradient;
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+
+}
+
